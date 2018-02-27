@@ -8,10 +8,15 @@
    ```
    и 
    функция сортировки
+   ```C++
    void comb(ArrayList<Integer> arr)
-3) заводим массив ArrayList<type>, где type - это нужный нам тип. Используем ArrayList, так как это аналог vector, только лучше и быстрее.
-4) Открываем файлы через буффер: BufferedReader Fin = new BufferedReader(new FileReader("input.txt"));
-                                 BufferedWriter Fout = new BufferedWriter(new FileWriter("output.txt"));
+   ```
+3) заводим массив ```C++ ArrayList<type>```, где type - это нужный нам тип. Используем ArrayList, так как это аналог vector, только лучше и быстрее.
+4) Открываем файлы через буффер: 
+   ```C++
+   BufferedReader Fin = new BufferedReader(new FileReader("input.txt"));
+   BufferedWriter Fout = new BufferedWriter(new FileWriter("output.txt"));
+   ```
 5) Создаем объект того, что нужно отсортировать: CombSort ob = new CombSort();
 6) Создаем сканнер, с помощью которого будем сканировать переменные из файла: Scanner scanner = new Scanner(Fin);
 7) Первое число - количество переменных в массиве: a = scanner.nextInt();
