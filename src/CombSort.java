@@ -9,10 +9,15 @@ import java.util.Scanner;
 
 // Java program for implementation of Comb Sort
 
-class CombSort<T>
+class CombSort
 {
     // Function to sort arr[] using Comb Sort
 
+    /**
+     * Function that sort the array
+     *
+     * @param arr array to sort
+     */
     void comb(ArrayList<Integer> arr)
     {
         int step = arr.size() - 1;
