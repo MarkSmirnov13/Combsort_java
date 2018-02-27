@@ -9,7 +9,7 @@
    и 
    функция сортировки
    ```JAVA
-   void comb(ArrayList<Integer> arr){
+   void comb(ArrayList<Integer> arr) {
    }
    ```
 3) заводим массив `ArrayList<type>`, где type - это нужный нам тип. Используем `ArrayList`, так как это аналог `vector`, только лучше и быстрее.
