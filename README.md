@@ -38,37 +38,37 @@
    array.add(i, scanner.nextInt());
    ```
 10) Запускаем нашу сортировку на созданный ранее объект от нужного массива: 
-   ```C++
-   ob.comb(array);
-   ```
+      ```C++
+      ob.comb(array);
+      ```
 11) Пишем массив в файл через метод `.write(element)`:
-   ```C++
-   Fout.write(array.get(i) + " ");
-   ```
+      ```C++
+      Fout.write(array.get(i) + " ");
+      ```
 12) Отчищаем буффер: 
-   ```C++
-   Fout.flush();
-   ```
+      ```C++
+      Fout.flush();
+      ```
 13) Закрываем выходной файл: 
-   ```C++
-   Fout.close();
-   ```
+      ```C++
+      Fout.close();
+      ```
 14) Чтобы достать элемент из массива для сравнени или для вывода используем метод `.get(index)`: 
-   ```C++
-   arr.get(i) > arr.get(i + step)
-   ```
+      ```C++
+      arr.get(i) > arr.get(i + step)
+      ```
 15) Чтобы свапнуть элементы используем метод из коллекции: 
-   ```C++
-   Collections.swap(arr, i, i + 1);
-   ```
+      ```C++
+      Collections.swap(arr, i, i + 1);
+      ```
 16) Подключаемые библиотеки: 
-   ```C++
-   import java.io.FileReader;
-   import java.io.FileWriter;
-   import java.io.BufferedReader;
-   import java.io.BufferedWriter;
-   import java.io.IOException;
-   import java.util.ArrayList;
-   import java.util.Collections;
-   import java.util.Scanner;
-   ```
+      ```C++
+      import java.io.FileReader;
+      import java.io.FileWriter;
+      import java.io.BufferedReader;
+      import java.io.BufferedWriter;
+      import java.io.IOException;
+      import java.util.ArrayList;
+      import java.util.Collections;
+      import java.util.Scanner;
+      ```
