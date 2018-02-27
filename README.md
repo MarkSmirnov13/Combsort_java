@@ -1,9 +1,11 @@
-Сортировка на JAVA
+# Сортировка на JAVA
 
 1) создаем класс JAVA
 2) в нем есть
+   ```C++
    public static void main(String args[]) throws IOException {
    }
+   ```
    и 
    функция сортировки
    void comb(ArrayList<Integer> arr)
