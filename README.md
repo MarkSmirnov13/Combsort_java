@@ -1,16 +1,16 @@
 # Сортировка на JAVA
 
 1) создаем класс JAVA
-2) в нем есть основная функция
+### 2) в нем есть основная функция
    ```JAVA
    public static void main(String args[]) throws IOException {
    }
    ```
    и 
    функция сортировки
-   ```~~JAVA
+   ```JAVA
    void comb(ArrayList<Integer> arr) {
-   }~~
+   }
    ```
 3) заводим массив `ArrayList<type>`, где type - это нужный нам тип. Используем `ArrayList`, так как это аналог `vector`, только лучше и быстрее.
 4) Открываем файлы через буффер: 
