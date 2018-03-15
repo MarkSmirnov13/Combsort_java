@@ -2,6 +2,7 @@
 
 1) :new::new::new:создаем класс JAVA
    Пишем `<T extends Comparable<T>>`, чтобы воспользоваться generics'ом
+   
    ```JAVA
    class CombSort<T extends Comparable<T>>
    {
@@ -9,17 +10,20 @@
    }
    ```
 2) :new::new::new:в нем есть основная функция
+
    ```JAVA
    public static void main(String args[]) throws IOException {
    }
    ```
    и 
    функция сортировки:x::arrow_down::x:
+   
    ```JAVA
    void comb(ArrayList<Integer> arr) {
    }
    ```
    __Исправляем__:white_check_mark::arrow_down::white_check_mark:
+   
    ```JAVA
    void comb(ArrayList<T> arr) {
    }
@@ -39,6 +43,7 @@
    Scanner scanner = new Scanner(Fin);
    ```
 7) :new::new::new:После сканера обязательно переключается на английскую локализацию
+
    ```JAVA
    scanner.useLocale(Locale.US);
    ```
@@ -55,6 +60,7 @@
    array.ensureCapacity(a);
    ```
 9) :new::new::new:Чтобы добавить элементы в массив используем метод `.add(index, element)`: 
+
    ```JAVA
    array.add(i, scanner.nextInt());
    ```
@@ -85,11 +91,14 @@
       Fout.close();
       ```
 14) :new::new::new:Чтобы достать элемент из массива для сравнени или для вывода используем метод `.get(index)`: 
+
       :x::arrow_down::x:
+      
       ```JAVA
       arr.get(i) > arr.get(i + step)
       ```
       __Исправляем и используем метод__`compareTo()`__чтобы сравнить элементы__:white_check_mark::arrow_down::white_check_mark:
+      
       ```JAVA
       arr.get(i).compareTo(arr.get(i + 1)) > 0 // аналогично  arr.get(i) > arr.get(i + step)
       ```
