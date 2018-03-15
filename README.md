@@ -106,7 +106,8 @@
       ```JAVA
       Collections.swap(arr, i, i + 1);
       ```
-16) Подключаемые библиотеки: 
+16) :new::new::new:Подключаемые библиотеки: 
+
       ```JAVA
       import java.io.FileReader;
       import java.io.FileWriter;
