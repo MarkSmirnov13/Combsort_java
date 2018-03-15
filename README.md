@@ -1,14 +1,14 @@
 # Сортировка на JAVA
 
 1) создаем класс JAVA
-### 2) в нем есть основная функция
+### 2. в нем есть основная функция
    ```JAVA
    public static void main(String args[]) throws IOException {
    }
    ```
    и 
    функция сортировки
-   ```JAVA
+   :x:```JAVA
    void comb(ArrayList<Integer> arr) {
    }
    ```
